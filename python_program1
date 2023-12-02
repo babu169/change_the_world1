@@ -1,0 +1,8 @@
+def nested_conditioanl_branch():
+    variable1 = int(input("Enter a number: "))
+    if variable1 < 0:
+        print("The entered number is negative.")
+    elif variable1 == 0:
+        print("The entered number is zero.")
+    else:
+        print("The entered number is positive.")
