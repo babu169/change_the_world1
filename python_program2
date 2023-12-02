@@ -1,0 +1,8 @@
+def summaiton_of_the_digits_of_a_number():
+    variable2 = int(input("Enter a number: "))
+    result = 0
+    while variable2 != 0:
+        remainder = variable2 % 10
+        result = result + remainder
+        variable2 = variable2 / 10
+    print(result)
