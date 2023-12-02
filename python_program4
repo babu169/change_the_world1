@@ -1,0 +1,14 @@
+def biggest_of_three_numbers():
+    variable4 = int(input("Enter a number: "))
+    variable5 = int(input("Enter another number: "))
+    variable6 = int(input("Enter another number: "))
+    if variable4 > variable5:
+        if variable4 > variable6:
+            print("The biggest number is: ", variable4)
+        else:
+            print("The biggest number is: ", variable6)
+    else:
+        if variable5 > variable6:
+            print("The biggest number is: ", variable5)
+        else:
+            print("The biggest number is: ", variable6)
