@@ -1,0 +1,6 @@
+def factorial_of_a_number():
+    variable3 = int(input("Enter a number to factorial: "))
+    result = 1
+    for i in range(1, variable3 + 1):
+        result = result * i
+    print("The factorial is: ", result)
